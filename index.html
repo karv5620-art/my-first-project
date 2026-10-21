@@ -1,31 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Karv Project</title>
-  <style>
-    body {
-      font-family: Arial;
-      text-align: center;
-      padding: 50px;
-      background: #f0f0f0;
-    }
-    h1 {
-      color: #e11d48;
-    }
-    button {
-      padding: 12px 25px;
-      background: black;
-      color: white;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      font-size: 16px;
-    }
-  </style>
+<title>karv5620-art | Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { 
+  background: #0a0a0a; 
+  color: white; 
+  font-family: Arial, sans-serif; 
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  background: #161616;
+  border: 1px solid #333;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+h1 { color: #ff2d55; font-size: 32px; margin-bottom: 10px; }
+h1 span { color: white; }
+p { color: #888; font-size: 16px; line-height: 1.5; }
+.tag { background: #222; color: #ff2d55; padding: 5px 12px; border-radius: 20px; font-size: 12px; display: inline-block; margin: 5px; }
+button {
+  background: #ff2d55;
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 25px;
+  width: 100%;
+  transition: 0.3s;
+}
+button:hover { background: white; color: black; transform: scale(1.05); }
+</style>
 </head>
 <body>
-  <h1>Hello, I'm karv5620-art 👋</h1>
-  <p>Ye mera pehla GitHub project hai!</p>
-  <button onclick="alert('Project ready! Ab GitHub pe upload karo')">Click Me</button>
+<div class="card">
+<h1>karv5620-art <span>👋</span></h1>
+<p>Frontend Developer</p>
+<div>
+<span class="tag">HTML</span>
+<span class="tag">CSS</span>
+<span class="tag">GitHub</span>
+</div>
+<p style="margin-top:20px;">Ye mera pehla GitHub project hai. Ab CSS sikh gaya!</p>
+<button onclick="alert('Welcome to my Portfolio! 🚀')">Contact Me</button>
+</div>
 </body>
 </html>
